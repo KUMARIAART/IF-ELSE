@@ -1,4 +1,10 @@
-"Write the logical expression for the following: A is greater than B and C is greater than D"
+"Write a program to check whether a person is a senior citizen or not."
 
-num=int(input("enter the value:-"))
+age=int(input("enter any number:-"))
+if age>=60 or age>=80:
+    print("senior citizen")
+else:
+    print("not senior citizen")    
+
+
 
