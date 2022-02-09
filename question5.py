@@ -6,14 +6,13 @@
 "Sample String : 'string'"
 "Expected Result : 'stringly'"
 
-
 n=input("enter the word:-")
 a="ly"
 b="ing"
 if a in n:
     if len(n)==3:
         print(n+b)
-if n in b:  
+if b in n:  
     print(n+a)
 else:
     print(n+b)
